@@ -1,0 +1,42 @@
+{
+  "name": "library",
+  "version": "0.0.1",
+  "author": "busyhe <busyhe@qq.com>",
+  "scripts": {
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  },
+  "private": false,
+  "keywords": [
+    "library",
+    "wfe",
+    "wfe-cli",
+    "template"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "pinst": "^3.0.0",
+    "semantic-release": "^19.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/wfe-templates/library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wfe-templates/library.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
+}
