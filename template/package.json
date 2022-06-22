@@ -10,6 +10,10 @@
   },
   "main": "src/index.js",
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [],
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
