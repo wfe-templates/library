@@ -8,6 +8,10 @@
     "postpack": "pinst --enable"
   },
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "library",
     "wfe",
