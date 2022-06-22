@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/wfe-templates/library/compare/v1.0.1...v1.0.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* variable substitution ([ea8e04d](https://github.com/wfe-templates/library/commit/ea8e04d6f2a631f3cc9bf29b8de1261186798b7d))
+
 ## [1.0.1](https://github.com/wfe-templates/library/compare/v1.0.0...v1.0.1) (2022-06-21)
 
 
